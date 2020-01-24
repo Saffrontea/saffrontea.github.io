@@ -1,7 +1,11 @@
 body {
-  background-color: #008800;
+  background-color: #e6e6e6;
 }
 
 body h1 {
   text-align: center;
+}
+
+body p {
+  font-size: large;
 }
