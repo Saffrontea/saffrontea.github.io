@@ -1,3 +1,36 @@
-body{ 
+@font-face {
+    font-family: 'MyFont';
+    src: url(/font/TRTaishoMinStd-R.otf);
+}
+body{
     margin: auto;
+    background: #536976;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #292E49, #536976);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #292E49, #536976); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #fff;
+}
+body::before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    // blurで指定したpxと同じ値を指定する
+    top: -5px;
+    bottom: -5px;
+    left: -5px;
+    right: -5px;
+    background: inherit;
+    filter: blur(5px);
+    
+}
+.page-header{
+    margin: 0 auto;
+    width: 60%;
+    padding-top: 20%;
+    h3{
+        font-family: "Myfont";
+        text-align: center;
+    }
 }

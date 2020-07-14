@@ -1,1 +1,1 @@
-body{margin:auto}
+@font-face{font-family:'MyFont';src:url(/font/TRTaishoMinStd-R.otf)}body{margin:auto;background:#536976;background:-webkit-linear-gradient(to right, #292E49, #536976);background:linear-gradient(to right, #292E49, #536976);background-repeat:no-repeat;background-size:100%;color:#fff}body::before{content:"";position:absolute;z-index:-1;top:-5px;bottom:-5px;left:-5px;right:-5px;background:inherit;filter:blur(5px)}.page-header{margin:0 auto;width:60%;padding-top:20%}.page-header h3{font-family:"Myfont";text-align:center}
